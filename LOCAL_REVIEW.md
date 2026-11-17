@@ -54,3 +54,9 @@ Ruff 0.17.5: All checks passed! Все обязательные проверки
 Лог ODOO_TEST_RESULTS.log явно разрешён в .gitignore как отчёт проверки.
 Независимый аудит и снимки интерфейса — в docs/validation; аудит описывает
 состояние до исправления переносимости команды Ruff.
+
+## CI отдельного репозитория
+
+Workflow sandbox-ci запускается на Push в main и sandbox-main, на Pull Request
+и вручную. Выполняет Ruff 0.17.5, compileall, 8 быстрых unittest и проверку Compose.
+Серверные тесты Odoo выполнены локально, их результат — ODOO_TEST_RESULTS.log.

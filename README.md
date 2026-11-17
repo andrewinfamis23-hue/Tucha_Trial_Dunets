@@ -1,5 +1,10 @@
 # TuchaCRM Trial Day
 
+Эта копия содержит выполненные три задания. Итог и команды проверок —
+[LOCAL_REVIEW.md](LOCAL_REVIEW.md), решение задания 2 — [SOLUTION.md](SOLUTION.md).
+Сдача согласована через отдельный репозиторий; исходный порядок fork/PR ниже
+сохранён как справка об оригинальном задании.
+
 Локальная учебная CRM для собеседования IT-специалиста. Кандидат запускает её
 на своём компьютере, разбирается в незнакомом коде, выполняет три задания и
 отправляет результат через Pull Request.
@@ -51,8 +56,8 @@ Python, Odoo и PostgreSQL отдельно устанавливать не ну
 ## Первый запуск
 
 ```bash
-git clone https://github.com/tuchaML/tucha_TrialDay.git
-cd tucha_TrialDay
+git clone https://github.com/andrewinfamis23-hue/Tucha_Trial_Dunets.git
+cd Tucha_Trial_Dunets
 docker compose up --build
 ```
 
@@ -156,7 +161,7 @@ docker compose up -d odoo
 В задании 2 код и тесты писать не нужно. Результатом должен быть файл
 `SOLUTION.md` в корне репозитория.
 
-## Как сдавать работу
+## Исходный порядок сдачи (справка)
 
 1. Сделайте fork репозитория.
 2. Создайте ветку `feature/test-day-<фамилия>` от `sandbox-main`.

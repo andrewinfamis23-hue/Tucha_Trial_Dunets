@@ -3,8 +3,10 @@ __pycache__/
 .ruff_cache/
 .env
 *.log
-data/
+/data/
 
 .venv/
 .DS_Store
 !ODOO_TEST_RESULTS.log
+
+.idea/
